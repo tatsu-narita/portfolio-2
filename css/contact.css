@@ -1,0 +1,93 @@
+/* contact
+------------------------- */
+
+.contact-img {
+    background-image: url(../images/bird-5704439_1920.jpg);
+    width: 100%;
+}
+
+.contact-form {
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.contact-form h1 {
+    font-size: 4rem;
+    color: #FFF;
+}
+
+#sns {
+    background: #f5e2b7;
+    padding: 4% 0;
+}
+
+#sns .wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+
+#sns .sns-title {
+    margin-bottom: 30px;
+    border-bottom: solid 5px #333;
+}
+
+.sns-box {
+    width: 40%;
+}
+
+#sns .fa-brands {
+    font-size: 250px;
+    margin-top: 150px;
+}
+
+.inner {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box-2 {
+    text-align: center;
+    width: 100%;
+}
+
+.box-3 {
+    width: 60%;
+    position: relative;
+    margin: 2em auto;
+    padding: 0.5em 1em;
+    border: solid 3px #333;
+    border-radius: 8px;
+}
+.box-3 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background:  #f5e2b7;
+    color: #333;
+    font-weight: bold;
+}
+.box-3 p {
+    text-align: left;
+    margin: 0; 
+    padding: 0;
+}
+/* footer
+------------------------- */
+footer {
+    background: black;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
