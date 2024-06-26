@@ -6,7 +6,7 @@ VARIABLES
 :root {
     --light-green: #d5edeb;
     --green: #63dbd0;
-    --brown: #403632;
+    --brown: #784530;
     --light-grey: #eee;
     --white: #fff;
     --oswald-font: 'Oswald', sans-serif;
@@ -25,7 +25,7 @@ body {
 COMMON
 ================================================ */
 p {
-    line-height: 1.7;
+    line-height: 2;
 }
 img {
     max-width: 100%;
