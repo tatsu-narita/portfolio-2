@@ -249,6 +249,19 @@ SHOP INFO
     border-top: 1px solid var(--light-grey);
 }
 
+/* footer
+------------------------- */
+footer {
+    background: black;
+    text-align: center;
+    padding: 26px 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
 /*
 DESKTOP SIZE
 ================================================ */
