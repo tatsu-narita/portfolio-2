@@ -248,6 +248,9 @@ SHOP INFO
     font-weight: normal;
     border-top: 1px solid var(--light-grey);
 }
+.skill-level {
+    text-align: left;
+}
 
 /* footer
 ------------------------- */
