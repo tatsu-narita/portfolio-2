@@ -8,9 +8,16 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&amp;display=swap" rel="stylesheet">
+
+        <!--css-->
         <link rel="stylesheet" href="css/style.css">
+
+        <!--js-->
         <script src="js/script.js" defer=""></script>
         <script src="js/slidemenu.js" defer=""></script>
+        
+
+        <!--images-->
         <link rel="icon" href="images/favicon.png" type="image/svg+xml">
     </head>
 
@@ -107,6 +114,12 @@
             <a class="btn fadein" href="#">オンラインショップ</a>
 
             <h3 class="fadein">[SkillLevel]</h3>
+            <div class="skill-wrapper">
+                <div class="skill-wrapper" style="position:relative;">
+                    <canvas id="skillChart" width="800" height="800" style="display: block; box-sizing: border-box; height: 400px; width: 400px;"></canvas>
+                    <canvas id="skillChart-2" width="720" height="800" style="display: block; box-sizing: border-box; height: 400px; width: 360px;"></canvas>
+                </div>
+            </div>
             <p class="skill-level">
                 1:実務で一度使用した程度<br>
                 2:実務で数ヶ月経験したがもう少し習熟が必要<br>
@@ -122,6 +135,8 @@
             <p><small>© 2024 Narita's Portfolio</small></p>
         </div>
     </footer>
+
+    <script src="js/skill-chart.js" defer=""></script>
 
 </body>
 </html>
