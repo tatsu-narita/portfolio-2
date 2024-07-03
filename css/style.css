@@ -57,6 +57,11 @@ LAYOUT
     margin: auto;
     padding: 0 1rem;
 }
+.container {
+    max-width: 60rem;
+    margin: auto;
+    padding: 0 1rem;
+}
 
 /*
 LOADING
@@ -247,6 +252,10 @@ SHOP INFO
     padding-top: 2rem;
     font-weight: normal;
     border-top: 1px solid var(--light-grey);
+}
+.skill-wrapper {
+    display: flex;
+    justify-content: center;
 }
 .skill-level {
     text-align: left;
