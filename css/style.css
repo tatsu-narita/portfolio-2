@@ -58,7 +58,7 @@ LAYOUT
     padding: 0 1rem;
 }
 .container {
-    max-width: 60rem;
+    max-width: 50rem;
     margin: auto;
     padding: 0 1rem;
 }
@@ -179,8 +179,8 @@ CONCEPT
         to right,
         transparent 0%,
         transparent 20%,
-        var(--light-grey) 20%,
-        var(--light-grey) 100%
+        var(--white) 20%,
+        var(--white) 100%
     );
 }
 .concept p {
@@ -258,6 +258,8 @@ SHOP INFO
     justify-content: center;
 }
 .skill-level {
+    display: flex;
+    justify-content: center;
     text-align: left;
 }
 
