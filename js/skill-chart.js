@@ -10,7 +10,7 @@ var skillChart = new Chart(ctx, {
         datasets: [
             {
                 //項目順
-                data: [3,3,3,3,2],
+                data: [4,3,3,3,2],
                 //グラフラベル
                 label: "使用可能言語/フレーム・ライブラリ",
                 //背景色
@@ -49,7 +49,7 @@ var skillChart2 = new Chart(ctx2, {
         datasets: [
             {
                 //項目順
-                data: [3,2,3,4,3],
+                data: [3,3,3,4,3],
                 //グラフラベル
                 label: "DevOps/その他ツール",
                 //背景色
