@@ -214,3 +214,29 @@ footer p {
     color: #fff;
     font-size: 0.875rem;
 }
+
+/*
+DESKTOP SIZE
+================================================ */
+@media(min-width: 800px) {
+    /* COMMON */
+        .title {
+            margin-bottom: 3rem;
+        }
+        .btn:hover {
+            color: var(--brown);
+            background: var(--light-green);
+        }
+    /* SLIDE MENU */
+        .btn-menu:hover {
+            background-color: var(--light-green);
+        }
+        #menu-close:hover svg {
+            fill: var(--brown);
+        }
+        .menu-list a:hover {
+            transition: .4s;
+            color: var(--green);
+        }
+
+    }
