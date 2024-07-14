@@ -131,7 +131,7 @@ SLIDE MENU
 
 .contact-form {
     text-align: center;
-    padding-top: 100px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -143,11 +143,14 @@ SLIDE MENU
 #sns {
     background: #f5e2b7;
     padding: 4% 0;
+    width: 100%;
 }
 
-#sns .wrapper {
+#sns .sns-wrapper {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 100%;
 }
@@ -162,8 +165,8 @@ SLIDE MENU
 }
 
 #sns .fa-brands {
-    font-size: 250px;
-    margin-top: 150px;
+    font-size: 200px;
+    margin: 50px;
 }
 
 .inner {
