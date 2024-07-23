@@ -422,4 +422,36 @@ DESKTOP SIZE
         margin-top: 20rem;
         height: 50rem;
     }
+    .skill-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .skill-level {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    }
+}
+
+/*
+TABLET SIZE
+================================================ */
+@media screen and (max-width: 799px) {
+
+/* SKILL */
+    #skill-area {
+        margin-bottom: 200px; /* 追加 */
+    }
+
+    .skill-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill-wrapper canvas {
+        margin: 10px 0;
+    }
+
 }
