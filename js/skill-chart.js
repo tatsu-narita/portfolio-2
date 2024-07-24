@@ -5,12 +5,12 @@ var skillChart = new Chart(ctx, {
     type: 'radar',
     data: {
         //データ項目
-        labels: ["HTML/CSS", "JavaScript", "React", "Next.js", "PHP"],
+        labels: ["HTML/CSS", "JavaScript", "React", "Next.js", "PHP", "jQuery"],
         //データ設定
         datasets: [
             {
                 //項目順
-                data: [4,3,3,3,2],
+                data: [4,3,3,3,2,3],
                 //グラフラベル
                 label: "使用可能言語/フレーム・ライブラリ",
                 //背景色
@@ -44,12 +44,12 @@ var skillChart2 = new Chart(ctx2, {
     type: 'radar',
     data: {
         //データ項目
-        labels: ["Git/GitHub", "Docker", "Teams", "Notion", "Figma"],
+        labels: ["Git/GitHub", "Docker", "Teams", "Notion", "Figma", "Canva"],
         //データ設定
         datasets: [
             {
                 //項目順
-                data: [3,3,3,4,3],
+                data: [3,3,3,4,3,3],
                 //グラフラベル
                 label: "DevOps/その他ツール",
                 //背景色
