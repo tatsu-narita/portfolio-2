@@ -422,15 +422,6 @@ DESKTOP SIZE
         margin-top: 20rem;
         height: 50rem;
     }
-    .skill-wrapper {
-        display: flex;
-        justify-content: center;
-    }
-    .skill-level {
-        display: flex;
-        justify-content: center;
-        text-align: left;
-    }
 }
 
 /*
