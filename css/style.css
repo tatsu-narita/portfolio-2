@@ -345,6 +345,11 @@ SKILL
     justify-content: center;
     text-align: left;
 }
+.qualification {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
 
 /*
 FOOTER
