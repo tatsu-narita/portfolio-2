@@ -328,7 +328,7 @@ GALLERY
     position: relative;
     margin: 2em auto;
     padding: 0.5em 1em;
-    border: solid 3px #333;
+    border: solid 3px var(--white);
     border-radius: 8px;
 }
 .box-3 .box-title {
@@ -338,14 +338,14 @@ GALLERY
     left: 10px;
     padding: 0 9px;
     line-height: 1;
-    font-size: 19px;
-    background:  #f5e2b7;
-    color: #333;
+    font-size: 25px;
+    background:  #e1e1e1;
+    color: var(--brown);
     font-weight: bold;
 }
 .box-3 p {
     text-align: left;
-    margin: 0; 
+    margin: 10px; 
     padding: 0;
 }
 
