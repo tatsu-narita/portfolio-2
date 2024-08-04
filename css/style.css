@@ -10,6 +10,8 @@ VARIABLES
     --light-grey: #eee;
     --white: #fff;
     --oswald-font: 'Oswald', sans-serif;
+    --gray:  #e1e1e1;
+    --black: #000;
 }
 
 /*
@@ -339,7 +341,7 @@ GALLERY
     padding: 0 9px;
     line-height: 1;
     font-size: 25px;
-    background:  #e1e1e1;
+    background:  var(--gray);
     color: var(--brown);
     font-weight: bold;
 }
@@ -392,13 +394,13 @@ SKILL
 FOOTER
 ------------------------- */
 footer {
-    background: black;
+    background: var(--black);
     text-align: center;
     padding: 25px 0;
 }
 
 footer p {
-    color: #fff;
+    color: var(--white);
     font-size: 0.875rem;
 }
 
