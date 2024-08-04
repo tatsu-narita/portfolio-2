@@ -467,7 +467,7 @@ DESKTOP SIZE
         height: 50rem;
     }
     #skill-area {
-        margin-bottom: 100px;
+        margin-bottom: 250px;
     }
 }
 
@@ -477,7 +477,7 @@ TABLET SIZE
 @media screen and (max-width: 799px) {
 /* SKILL */
     #skill-area {
-        margin-bottom: 400px;
+        margin-bottom: 550px;
     }
 
     .skill-wrapper {
