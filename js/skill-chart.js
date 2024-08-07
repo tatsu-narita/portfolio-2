@@ -12,7 +12,7 @@ var skillChart = new Chart(ctx, {
                 //項目順
                 data: [4,4,3,2,3],
                 //グラフラベル
-                label: "使用可能言語/フレーム・ライブラリ",
+                label: "使用可能言語",
                 //背景色
                 backgroundColor: "rgba(67, 133, 215, 0.5)",
                 //線の終端設定
@@ -79,7 +79,7 @@ var skillChart2 = new Chart(ctx2, {
 //skillChart-3
 
 var ctx2 = document.getElementById("skillChart-3").getContext('2d');
-var skillChart2 = new Chart(ctx2, {
+var skillChart3 = new Chart(ctx2, {
     type: 'radar',
     data: {
         //データ項目
