@@ -78,8 +78,8 @@ var skillChart2 = new Chart(ctx2, {
 
 //skillChart-3
 
-var ctx2 = document.getElementById("skillChart-3").getContext('2d');
-var skillChart3 = new Chart(ctx2, {
+var ctx3 = document.getElementById("skillChart-3").getContext('2d');
+var skillChart3 = new Chart(ctx3, {
     type: 'radar',
     data: {
         //データ項目
