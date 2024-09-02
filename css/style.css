@@ -17,6 +17,7 @@ VARIABLES
 /*
 GENERAL STYLING
 ================================================ */
+
 body {
     color: var(--brown);
     background: url('../images/bg-shadow.jpg') no-repeat right bottom / cover fixed;
@@ -398,6 +399,7 @@ footer {
     background: var(--black);
     text-align: center;
     padding: 25px 0;
+    margin-top: auto;
 }
 
 footer p {
@@ -468,7 +470,7 @@ DESKTOP SIZE
         height: 50rem;
     }
     #skill-area {
-        margin-bottom: 250px;
+        margin-bottom: 350px;
     }
 }
 
@@ -478,7 +480,9 @@ TABLET SIZE
 @media screen and (max-width: 799px) {
 /* SKILL */
     #skill-area {
-        margin-bottom: 550px;
+        margin-top: 5rem;
+        margin-bottom: 0px;
+        position: relative; 
     }
 
     .skill-wrapper {
@@ -492,4 +496,21 @@ TABLET SIZE
         margin: 10px 0;
     }
 
+    .skill-content {
+        padding: 1rem;
+        width: 95vw;
+        top: -2rem; 
+        margin-bottom: 0px;
+        position: relative;
+    }
+
+/*FOOTER*/
+    footer {
+        position: relative;
+        margin-top: 95rem;
+        padding-top: 10px;
+        width: 100%;
+    }
+    
 }
+
