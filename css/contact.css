@@ -132,12 +132,24 @@ SLIDE MENU
 }
 
 .contact-form {
-    text-align: center;
-    padding: 20px 0;
+    position: relative;
     width: 100%;
+    padding-bottom: 60rem;
+    height: 0;
+    overflow: hidden;
 }
 
-.contact-form h1 {
+.contact-form iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.title h1 {
+    text-align: center;
     font-size: 4rem;
     color: var(--white);
 }
@@ -242,6 +254,17 @@ DESKTOP SIZE
         .menu-list a:hover {
             transition: .4s;
             color: var(--green);
+        }
+
+        #sns {
+            background: var(--gold);
+            padding: 4% 0;
+            width: 100%;
+        }
+
+        .contact-img {
+            background-image: url(../images/bird-5704439_1920.jpg);
+            width: 100%;
         }
 
     }
