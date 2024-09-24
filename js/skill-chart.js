@@ -88,7 +88,7 @@ var skillChart3 = new Chart(ctx3, {
         datasets: [
             {
                 //項目順
-                data: [3,3,3,3,3],
+                data: [4,4,3,3,3],
                 //グラフラベル
                 label: "DevOps",
                 //背景色
