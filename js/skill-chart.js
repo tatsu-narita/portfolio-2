@@ -10,7 +10,7 @@ var skillChart = new Chart(ctx, {
         datasets: [
             {
                 //項目順
-                data: [4,4,3,3,3],
+                data: [4,4,4,4,3],
                 //グラフラベル
                 label: "使用可能言語",
                 //背景色
@@ -44,12 +44,12 @@ var skillChart2 = new Chart(ctx2, {
     type: 'radar',
     data: {
         //データ項目
-        labels: ["Next.js", "JQuery", "WordPress", "TailwindCSS", "React"],
+        labels: ["Next.js", "JQuery", "Spring Framework", "Laravel", "React"],
         //データ設定
         datasets: [
             {
                 //項目順
-                data: [3,3,3,3,3],
+                data: [4,4,4,3,4],
                 //グラフラベル
                 label: "フレームワーク/ライブラリ",
                 //背景色
@@ -88,7 +88,7 @@ var skillChart3 = new Chart(ctx3, {
         datasets: [
             {
                 //項目順
-                data: [4,4,3,3,3],
+                data: [4,4,3,3,4],
                 //グラフラベル
                 label: "DevOps",
                 //背景色
